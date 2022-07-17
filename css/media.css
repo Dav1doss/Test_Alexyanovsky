@@ -1,0 +1,321 @@
+@media (max-width: 473px) {
+
+    .container {
+        display: block;
+        margin: 0 auto 0 auto;
+        padding: 0 13px;
+        max-width: 290px;
+      }
+
+/* Hero */
+    .hero {
+        background-image: url("../img/hero_mobile.jpg");
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: contain;
+        min-height: 0px;
+        width: 100%;
+    }
+
+    .hero-content-block {
+        padding: 20px 0 26px 0;
+    }
+
+    .content-block-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 260px;
+    }
+
+    .pre-title {
+        font-size: 27px;
+        line-height: 29px;
+    }
+
+    .hero-title {
+        font-size: 17px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .under-title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .hero-text-design {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .content-block-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-descr {
+        margin-bottom: 14px;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+    }
+
+    .btn {
+        padding: 11.32px 21.48px;
+        font-size: 16px;
+    }
+
+/* Tools */
+    .tools {
+        position: relative;
+        flex-flow: column-reverse;
+        padding: 18px 15px 350px 15px;
+    }
+
+    .tools-title {
+        margin-bottom: 23px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .tools-list-item {
+        padding-left: 23px;
+        font-size: 16px;
+        line-height: 19px;
+        max-width: 262px;
+
+        background-size: 8px;
+        background-position: 0px 8px;
+    }
+
+    .tools-list-item:not(:last-child) {
+        margin-bottom: 25px;
+    }
+
+    .tools-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tools-btn {
+        margin-bottom: 29px;
+    }
+
+    .tools-img {
+        position: absolute;
+        left: 0;
+        bottom: 49px;
+        width: 303px;
+        height: 291px;
+    }
+
+/* Price */
+
+    .price {
+        padding: 31px 0 32px 0;
+
+        background-image: url("../img/profit_mobile.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        min-height: 745px;
+        width: 100%;
+    }
+
+    .price-title {
+        margin-bottom: 7px;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: center;
+    }
+
+    .content-block {
+        display: block;
+    }
+
+    .content-block-item:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
+
+    .prices-text {
+        margin-bottom: 11px;
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .prices-item {
+        padding: 12px 13px 6px 14px;
+    }
+
+    .old-price {
+        margin-right: 30px;
+    }
+
+    .new-price,
+    .old-price {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .old-price::after {
+        width: 61px;
+        top: 13px;
+        right: 1px;
+    }
+
+    .training-title {
+        margin-bottom: 18px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .training-list-item {
+        padding-left: 25px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .training-list-item:not(:last-child) {
+        margin-bottom: 25px;
+    }
+
+    .flex-element {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+/* Footer */
+
+    .footer {
+        padding: 19px 15px 20px 15px;
+    }
+
+    .footer-list {
+        padding-bottom: 16px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-text {
+        font-size: 10px;
+        line-height: 9px;
+    }
+
+    .number-list {
+        margin-bottom: 25px;
+    }
+
+    .number-list-item {
+        text-align: start;
+    }
+
+    .number {
+        font-size: 10px;
+    }
+
+    .footer-list-item {
+        text-align: center;
+    }
+
+    .social-list-item {
+        font-size: 10px;
+    }
+
+    .social-item_wp{
+        padding: 6px 8px 6px 9px;
+    }
+
+    .social-item_vb{
+        padding: 7px 15px;
+    }
+
+    .social-item_tg{
+        padding: 6px 9px;
+    }
+
+    .social-list-item:not(:last-child) {
+        margin-right: 15px;
+    }
+
+    .Whatsapp {
+        padding-left: 17px;
+        background-size: 11px;
+    }
+
+    .Viber {
+        padding-left: 17px;
+        background-size: 11px;
+    }
+
+    .Telegram {
+        padding-left: 17px;
+        background-size: 12px;
+    }
+
+    .copy-mobile {
+        padding-top: 22px;
+        margin-bottom: 17px;
+        display: block;
+        text-align: center;
+    }
+
+    .margin-off-mobile {
+        display: none;
+    }
+
+    .footer-bottom {
+        padding: 0;
+    }
+
+    .pop-up-body {
+        padding: 102px 10px 108px 10px;
+        width: 320px;
+        height: 488px;
+    }
+
+    .popup-title {
+        margin-bottom: 14px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .form-textareat {
+        padding: 15.55px 15px 14px 15px;
+    }
+
+    .form-textareat::placeholder {
+        font-size: 14px;
+    }
+    
+    .form-textareat:not(:last-child) {
+        margin-bottom: 14px;
+    }
+
+    .form-box-input {
+        margin-bottom: 9px;
+    }
+
+    .pop-up-body {
+        top: -89px;
+    }
+
+    .check-box-descr {
+        font-size: 10px;
+    }
+
+    .popup-icon {
+        width: 15px;
+        height: 15px;
+    }
+
+    .pop-up-close {
+        top: 15px;
+        right: 10px;
+    }
+}
